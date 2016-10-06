@@ -1,11 +1,12 @@
-// var array = [10, 2, 5, 1, 9];
-//
-// array.sort(function(a,b){
-//   console.log(`a: ${a}, b: ${b} -> ${a-b}`);
-//   return a - b;
-// });
-//
-// console.log(array);
+var array = [10, 2, 5, 1, 9];
+
+array.sort(function(a,b){
+  console.log(`a: ${a}, b: ${b} -> ${a-b}`);
+  return a - b;
+});
+
+console.log(array);
+
 var students = [
   { id: 1, name: "bruce",    age: 40 },
   { id: 2, name: "zoidberg", age: 22 },
